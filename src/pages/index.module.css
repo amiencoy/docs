@@ -1,0 +1,259 @@
+.hero {
+  background:
+    radial-gradient(1200px 400px at 85% -10%, rgba(145, 216, 220, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 10% 0%, rgba(233, 166, 205, 0.22), transparent 55%),
+    linear-gradient(135deg, #24163e 0%, #3a2051 55%, #1e3248 120%);
+  color: #f8f5ff;
+  padding: 5.5rem 1.5rem 4.5rem;
+}
+
+.heroInner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #cbbcff;
+}
+
+.title {
+  margin: 0;
+  max-width: 15ch;
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  color: #f8f5ff;
+}
+
+.subtitle {
+  margin: 1.4rem 0 0;
+  max-width: 58ch;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: rgba(248, 245, 255, 0.8);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.primaryAction,
+.secondaryAction {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.7rem 1.3rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.primaryAction {
+  background: #b7a1ff;
+  color: #211831;
+}
+
+.primaryAction:hover {
+  background: #cbbcff;
+  color: #211831;
+  text-decoration: none;
+}
+
+.secondaryAction {
+  border: 1px solid rgba(248, 245, 255, 0.35);
+  color: #f8f5ff;
+}
+
+.secondaryAction:hover {
+  border-color: #cbbcff;
+  color: #cbbcff;
+  text-decoration: none;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 3rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(248, 245, 255, 0.16);
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.stats dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(248, 245, 255, 0.55);
+}
+
+.stats dd {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #f8f5ff;
+}
+
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 1rem;
+}
+
+.sectionHead {
+  margin-bottom: 2.2rem;
+}
+
+.kicker {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #6f4bd8;
+}
+
+html[data-theme='dark'] .kicker {
+  color: #c9b8ff;
+}
+
+.sectionHead h2,
+.note h2 {
+  margin: 0 0 0.7rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  letter-spacing: -0.02em;
+}
+
+.sectionHead p {
+  margin: 0;
+  max-width: 66ch;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.65;
+}
+
+.tracks {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 2rem;
+}
+
+.trackGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 1.4rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 14px;
+  color: inherit;
+  background: var(--ifm-background-surface-color);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.track:hover {
+  border-color: #b7a1ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.trackEyebrow {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: #6f4bd8;
+}
+
+html[data-theme='dark'] .trackEyebrow {
+  color: #c9b8ff;
+}
+
+.track h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.track p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.55;
+  font-size: 0.92rem;
+}
+
+.trackLink {
+  margin-top: auto;
+  padding-top: 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #5b36c9;
+}
+
+html[data-theme='dark'] .trackLink {
+  color: #c9b8ff;
+}
+
+.note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 3.5rem auto 4.5rem;
+  padding: 2rem 2.2rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(183, 161, 255, 0.16), rgba(145, 216, 220, 0.14));
+  border: 1px solid rgba(183, 161, 255, 0.35);
+}
+
+.note > div {
+  max-width: 62ch;
+}
+
+.note p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.65;
+}
+
+.noteLink {
+  font-weight: 700;
+  color: #5b36c9;
+  white-space: nowrap;
+}
+
+html[data-theme='dark'] .noteLink {
+  color: #c9b8ff;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 4rem 1.2rem 3.5rem;
+  }
+
+  .stats {
+    gap: 1.4rem;
+  }
+
+  .note {
+    padding: 1.5rem;
+  }
+}
