@@ -1,8 +1,7 @@
 # Draxis Digital Docs
 
 The documentation library for Draxis Digital projects, built with Docusaurus and
-deployed to GitHub Pages by GitHub Actions. No paid hosting, no custom domain,
-no external search service.
+deployed to GitHub Pages by GitHub Actions.
 
 ## What Lives Here
 
@@ -17,20 +16,14 @@ no external search service.
 Lophiarch, Axionorm, Parabiont Protocol, and PARALAX MCP form one stack: a
 policy-gated tool, the policy layer, the context carrier, and the MCP gateway.
 
-## Why Docusaurus
+## Stack
 
-- Free and open source, with no per-seat or per-site fee.
-- One documentation instance per project, so each can be versioned against its
-  own release cadence.
-- A real React landing page for the library timeline.
-- Offline search through `@easyops-cn/docusaurus-search-local`, with no Algolia
-  account or API key.
-- Markdown stays in Git, so documentation can be reviewed with the code it
-  describes.
-
-GitBook was rejected because custom domains and multi-product site sections are
-not on the free plan. MkDocs Material was the simpler runner-up, but multi-
-project versioning and the custom timeline page are weaker there.
+- Docusaurus 3, with one documentation instance per project so each can be
+  versioned on its own release cadence.
+- Offline search through `@easyops-cn/docusaurus-search-local`; no external
+  search account or API key.
+- A React landing page for the project timeline.
+- Markdown kept in Git and reviewed like code.
 
 ## Local Development
 
