@@ -91,10 +91,11 @@ Keep changes focused. Avoid bundling unrelated rewrites.
 
 ## Documentation
 
-Operational documentation is maintained in the
-[Lophiarch Wiki](https://github.com/amiencoy/lophiarch/wiki). If a change alters
+Operational documentation lives in the
+[Draxis Digital documentation library](https://amiencoy.github.io/docs/lophiarch/),
+with the source in `amiencoy/docs` under `docs/lophiarch/`. If a change alters
 commands, environment variables, policy behavior, or deployment, update the
-matching wiki page in the same work. A behavior change with stale docs counts as
+matching page there in the same work. A behavior change with stale docs counts as
 an incomplete change.
 
 ## Licensing

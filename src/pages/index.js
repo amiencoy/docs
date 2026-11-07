@@ -101,7 +101,7 @@ export default function Home() {
           <div>
             <h2>Documentation is part of the codebase</h2>
             <p>
-              Every page here lives in Git next to the project it describes. Commands,
+              Every page here lives in Git and is reviewed like code. Commands,
               environment variables, and policy behavior are checked against the source,
               not copied from a slide. If a page disagrees with the code, the code wins
               and the page gets fixed.

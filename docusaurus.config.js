@@ -4,7 +4,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Draxis Digital Docs',
-  tagline: 'Every project, documented in one place.',
+  tagline: 'Documentation for Lophiarch, Axionorm, Parabiont Protocol, and PARALAX MCP.',
   favicon: 'img/favicon.svg',
 
   url: 'https://amiencoy.github.io',
@@ -184,7 +184,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Draxis Digital. Documentation is versioned with the code it describes.`,
+        copyright: `© ${new Date().getFullYear()} Draxis Digital. Documentation is checked against the tagged source.`,
       },
       prism: {
         theme: prismThemes.github,
