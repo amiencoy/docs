@@ -135,7 +135,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Docs Library',
+        title: 'Draxis Digital Docs',
         logo: {
           alt: 'Draxis Digital',
           src: 'img/logo.svg',

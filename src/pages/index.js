@@ -31,12 +31,12 @@ const tracks = [
 export default function Home() {
   return (
     <Layout
-      title="Documentation library"
+      title="Overview"
       description="Documentation for Lophiarch, Axionorm, Parabiont Protocol, PARALAX MCP, and the rest of the Draxis Digital project line.">
       <header className={styles.hero}>
         <div className={styles.heroInner}>
-          <p className={styles.eyebrow}>Draxis Digital · Documentation library</p>
-          <h1 className={styles.title}>Every project, documented in one place.</h1>
+          <p className={styles.eyebrow}>Draxis Digital Docs</p>
+          <h1 className={styles.title}>Every project tracked. Docs where they exist.</h1>
           <p className={styles.subtitle}>
             Security tooling, agent governance, and context protocols. Pick the project
             you need, or follow the timeline to see how the pieces fit together.
@@ -99,7 +99,7 @@ export default function Home() {
 
         <section className={styles.note}>
           <div>
-            <h2>Documentation is part of the codebase</h2>
+            <h2>Documentation is reviewed like code</h2>
             <p>
               Every page here lives in Git and is reviewed like code. Commands,
               environment variables, and policy behavior are checked against the source,
